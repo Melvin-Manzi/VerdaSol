@@ -34,8 +34,6 @@ const Footer = () => {
     { name: "About Us", sectionId: "about" },
   ];
 
-
-
   const handleNavigation = (item: ExploreLink): void => {
     if (item.sectionId) {
       scrollToSection(item.sectionId);
