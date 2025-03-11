@@ -8,13 +8,7 @@ interface ExploreLink {
   path?: string;
 }
 
-interface BlogPost {
-  date: string;
-  title: string;
-  image: string;
-  category: string;
-  readTime: string;
-}
+
 
 const Footer = () => {
   const scrollToSection = (sectionId: string): void => {
